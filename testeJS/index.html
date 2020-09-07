@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>velha</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<center><h1>JOGO DA VELHA</h1></center>
+		<center><h2> vencedor:</h2><img id="img" src="img/vazio.png"></center>
+		<section>
+		<center>
+		<table oncontextmenu="return false;"s>
+			<tr>
+				<td><img src="img/vazio.png" id="0-0" onclick="jogo(this.id, grid )"></td>
+				<td><img src="img/vazio.png" id="0-1" onclick="jogo(this.id, grid )"></td>
+				<td><img src="img/vazio.png" id="0-2" onclick="jogo(this.id, grid )"></td>
+			</tr>
+			<tr>
+				<td><img src="img/vazio.png" id="1-0" onclick="jogo(this.id, grid )"></td>
+				<td><img src="img/vazio.png" id="1-1" onclick="jogo(this.id, grid )"></td>
+				<td><img src="img/vazio.png" id="1-2" onclick="jogo(this.id, grid )"></td>
+			</tr>
+			<tr>
+				<td><img src="img/vazio.png" id="2-0" onclick="jogo(this.id, grid )"></td>
+				<td><img src="img/vazio.png" id="2-1" onclick="jogo(this.id, grid )"></td>
+				<td><img src="img/vazio.png" id="2-2" onclick="jogo(this.id, grid )"></td>
+			</tr>
+		</table>
+		</center>
+		</section>
+		<script src="script.js"></script>
+	</body>
+</html>

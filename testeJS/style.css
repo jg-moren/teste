@@ -1,0 +1,14 @@
+body{
+	background-color: rgb(25,150,200);
+}
+section{
+	border-radius: 10px;
+	background: black;
+	width: 200px;
+	margin: auto;
+	padding: 15px;
+}
+
+img{
+	size: 50%;
+}
